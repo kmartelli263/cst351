@@ -1,0 +1,15 @@
+h1{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: bolder;
+}
+h2{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: lighter;
+}
+p{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+#servicesbox{
+  display: flex;
+}
