@@ -1,17 +1,22 @@
-.web-header {
+#web-header {
   background-color: #80A5AB;
-  height: 15vh;
+  height: 10vh;
 
 }
 
-.web-header img {
+.logo {
   background-image: url(index.html);
   float: left;
   padding-left: 10px;
   padding-top: 10px;
+  width: 7%;
 
 }
-#title {
+#title{
+  max-width: 75vw;
+  margin-left: 12vw;
+}
+#title h1{
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 5vw;
