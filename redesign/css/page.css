@@ -1,21 +1,42 @@
+<<<<<<< HEAD
 .web-header {
+  display:flex;
+  align-content: center;
   background-color: #80A5AB;
-  height: 15vh;
+  height:auto;
+  width: 100%
+=======
+#web-header {
+  background-color: #80A5AB;
+  height: 10vh;
+>>>>>>> db75d3fe15aac41d27f47c1693f94836c56b6438
 
 }
 
-.web-header img {
+.logo {
   background-image: url(index.html);
   float: left;
   padding-left: 10px;
   padding-top: 10px;
+  width: 7%;
 
 }
+<<<<<<< HEAD
+
 #title {
-  text-align: center;
   font-family: futura;
+=======
+#title{
+  max-width: 75vw;
+  margin-left: 12vw;
+}
+#title h1{
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+>>>>>>> db75d3fe15aac41d27f47c1693f94836c56b6438
   font-size: 5vw;
   padding-top: 20px;
+  align-content: center;
 }
 .topnav {
   width: 100%;
@@ -70,10 +91,21 @@
     text-align: left;
   }
 }
-.background-image {
-  width: 100%;
-  height: auto;
+.ms-img {
+  z-index: -1;
+  position:absolute;
 }
+#ms-container {
+  z-index: -1;
+  position: absolute;
+  margin-left: 24%;
+
+  padding-left: 10px;
+  height:auto;
+  width: 50%;
+  background-color: white; opacity:0.6;
+}
+
 .first-line-ms {
 
 }
