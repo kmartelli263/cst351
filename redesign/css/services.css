@@ -1,15 +1,24 @@
 h1{
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: bolder;
+  padding: 20px;
+  margin:
 }
 h2{
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: lighter;
+  padding: 20px;
 }
 p{
   font-family: 'Nanum Gothic', sans-serif;
+  padding: 20px;
 }
 
 #servicesbox{
   display: flex;
+  padding: 10px;
+  max-width:
+}
+#text{
+  margin: 30px;
 }
