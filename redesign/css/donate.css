@@ -163,3 +163,15 @@ span.price {
     margin-bottom: 20px;
   }
 }
+
+}
+
+img.one {
+  height: auto;
+  width: auto;
+}
+
+.one {
+  padding-right: 200px;
+  padding-top: 50px;
+}
