@@ -1,6 +1,9 @@
 .web-header {
+  display:flex;
+  align-content: center;
   background-color: #80A5AB;
-  height: 15vh;
+  height:auto;
+  width: 100%
 
 }
 
@@ -11,11 +14,12 @@
   padding-top: 10px;
 
 }
+
 #title {
-  text-align: center;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: futura;
   font-size: 5vw;
   padding-top: 20px;
+  align-content: center;
 }
 .topnav {
   width: 100%;
@@ -70,10 +74,21 @@
     text-align: left;
   }
 }
-.background-image {
-  width: 100%;
-  height: auto;
+.ms-img {
+  z-index: -1;
+  position:absolute;
 }
+#ms-container {
+  z-index: -1;
+  position: absolute;
+  margin-left: 24%;
+
+  padding-left: 10px;
+  height:auto;
+  width: 50%;
+  background-color: white; opacity:0.6;
+}
+
 .first-line-ms {
 
 }
