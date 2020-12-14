@@ -1,21 +1,24 @@
-.web-header {
-  background-color: #80A5AB;
-  height: 15vh;
-
+#web-header {
+  background-color: #80a5ab;
+  display: flex;
+  width: 100vw
 }
 
-.web-header img {
+#logo img{
   background-image: url(index.html);
   float: left;
   padding-left: 10px;
-  padding-top: 10px;
+    padding-top: 10px;
+  max-width: 9vh;
+  align-self: center;
 
 }
+
 #title {
-  text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 5vw;
   padding-top: 20px;
+  padding-left: 30vw;
+  font-size: 2vh;
 }
 .topnav {
   width: 100%;
@@ -34,6 +37,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size:26px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .topnav a:hover {
@@ -69,7 +73,7 @@
     display: block;
     text-align: left;
   }
-}
+
 .background-image {
   width: 100%;
   height: auto;

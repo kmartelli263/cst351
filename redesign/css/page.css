@@ -1,33 +1,27 @@
-body {
-  background-color: grey;
-}
 #web-header {
-  background-color: #80A5AB;
-  height: 10vh;
-  width: 100vw;
-
+  background-color: #80a5ab;
+  display: flex;
+  width: 100vw
 }
 
-.logo {
+#logo img{
   background-image: url(index.html);
   float: left;
   padding-left: 10px;
-  padding-top: 10px;
-  width: 7%;
+    padding-top: 10px;
+  max-width: 9vh;
+  align-self: center;
 
 }
-#title{
-  max-width: 75vw;
-  margin-left: 12vw;
-}
-#title h1{
-  text-align: center;
+
+#title {
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 5vw;
   padding-top: 20px;
+  padding-left: 30vw;
+  font-size: 2vh;
 }
 .topnav {
-  width: 100vw;
+  width: 100%;
   background-color: #CAAD75;
   overflow: hidden;
   display: flex;
@@ -43,6 +37,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size:26px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .topnav a:hover {
@@ -78,7 +73,7 @@ body {
     display: block;
     text-align: left;
   }
-}
+
 .home-img img {
   width: 100%;
   z-index: -1;
