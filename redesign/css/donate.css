@@ -170,15 +170,11 @@ span.price {
 
 }
 
-img.one {
-  height: auto;
-  width: auto;
+.one img{
+max-height: 200px;
 }
 
-.one {
-  padding-right: 200px;
-  padding-top: 50px;
-}
+
 
 h1 {
   font-size: 50px;
