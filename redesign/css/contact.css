@@ -1,8 +1,32 @@
+<<<<<<< HEAD
 .web-header {
   background-color: #80A5AB;
   height: 15vh;
+=======
+#web-header {
+  background-color: #80a5ab;
+  display: flex;
+  width: 100vw
+}
+
+#logo img{
+  background-image: url(index.html);
+  float: left;
+  padding-left: 10px;
+    padding-top: 10px;
+  max-width: 9vh;
+  align-self: center;
 
 }
+>>>>>>> ce67dc50ed1763d36eb3285b2c38988957c20fd6
+
+#title {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-top: 20px;
+  padding-left: 30vw;
+  font-size: 2vh;
+}
+<<<<<<< HEAD
 
 .web-header img {
   background-image: url(index.html);
@@ -17,6 +41,8 @@
   font-size: 5vw;
   padding-top: 20px;
 }
+=======
+>>>>>>> ce67dc50ed1763d36eb3285b2c38988957c20fd6
 .topnav {
   width: 100%;
   background-color: #CAAD75;
@@ -34,6 +60,10 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size:26px;
+<<<<<<< HEAD
+=======
+  font-family: 'Nanum Gothic', sans-serif;
+>>>>>>> ce67dc50ed1763d36eb3285b2c38988957c20fd6
 }
 
 .topnav a:hover {
@@ -69,6 +99,7 @@
     display: block;
     text-align: left;
   }
+<<<<<<< HEAD
 }
 .background-image {
   width: 100%;
@@ -185,3 +216,5 @@ h1 {
 p {
   padding-left: 100px;
 }
+=======
+>>>>>>> ce67dc50ed1763d36eb3285b2c38988957c20fd6

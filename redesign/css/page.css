@@ -1,26 +1,24 @@
 #web-header {
-  background-color: #80A5AB;
-  height: 10vh;
-
+  background-color: #80a5ab;
+  display: flex;
+  width: 100vw
 }
 
-.logo {
+#logo img{
   background-image: url(index.html);
   float: left;
   padding-left: 10px;
-  padding-top: 10px;
-  width: 7%;
+    padding-top: 10px;
+  max-width: 9vh;
+  align-self: center;
 
 }
-#title{
-  max-width: 75vw;
-  margin-left: 12vw;
-}
-#title h1{
-  text-align: center;
+
+#title {
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 5vw;
   padding-top: 20px;
+  padding-left: 30vw;
+  font-size: 2vh;
 }
 .topnav {
   width: 100%;
@@ -39,6 +37,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size:26px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .topnav a:hover {
@@ -74,11 +73,35 @@
     display: block;
     text-align: left;
   }
-}
-.background-image {
+
+.home-img img {
   width: 100%;
-  height: auto;
+  z-index: -1;
+  position: absolute;
+}
+
+#container {
+  background-color: white;
+  opacity: .8;
+  width: 50%;
+  margin-left: 25%;
+  max-height: 50%;
+  margin-top: 4vh;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .first-line-ms {
+  padding-left:
+  padding-top:
+  padding-right:
+}
+.first-line-ms p {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size:
+
+}
+.first-line-ms section {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-style: bold;
 
 }
