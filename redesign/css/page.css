@@ -74,12 +74,11 @@
     text-align: left;
   }
 
-.home-img img {
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-}
 
+#home-img img {
+  z-index: -1;
+  position: relative;
+}
 #container {
   background-color: white;
   opacity: .8;
@@ -90,18 +89,7 @@
   padding-left: 10px;
   padding-top: 10px;
 }
-.first-line-ms {
-  padding-left:
-  padding-top:
-  padding-right:
-}
-.first-line-ms p {
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size:
-
-}
-.first-line-ms section {
-  font-family: 'Nanum Gothic', sans-serif;
-  font-style: bold;
-
+.text {
+  z-index: 200;
+  position: absolute;
 }
